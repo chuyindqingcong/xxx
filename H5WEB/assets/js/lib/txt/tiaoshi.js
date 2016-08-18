@@ -1,0 +1,1 @@
+javascript:(function(e){e.setAttribute("src","http://192.168.24.1:8080/target/target-script-min.js#anonymous");document.getElementsByTagName("body")[0].appendChild(e);})(document.createElement("script"));void(0);

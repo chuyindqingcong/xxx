@@ -1,0 +1,180 @@
+/*--------------header制作 S --------------*/
+.header{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.header div{
+	float:left;
+}
+.header-top{
+	width: 100%;
+	background: #6295f4;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+}
+.header-left{
+	width: 48%;
+	color: #fff;
+	font-size: 2rem;
+	text-align: left;
+    position: relative;
+}
+.header-seach{
+	width: 34%;
+
+}
+.header-left p{
+	font-size: 1.3rem;
+    display: inline-block;
+    margin-top: 2px;
+    position: absolute;
+}
+.header-left a{
+	color: #fff;
+}
+.header-left em{
+	font-size: 2rem;
+	font-style: normal;
+	margin-left: 17px;
+	margin-right: 5px;
+}
+.header-download{
+	width: 18%;
+}
+.header-download img{
+	width:29px;
+    margin-top: 17px;
+}
+.header-title{
+	width: 100%;
+	background: #fff;
+}
+
+/*--------------header制作 E --------------*/
+.content-game{
+	width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+   border-bottom: 1px solid #DAD1D1;
+   background: #fff;
+   display: none
+}
+
+.game-img{
+	text-align: center;
+	float: left;
+	position: relative;
+
+}
+.game-img img{
+	border-radius: 15px;
+	height: 80px;
+	width: 80px;
+}
+.span-icon{
+	position: absolute;
+	transform: rotate(-34deg);
+	-webkit-transform:rotate(-45deg);
+	width: 184px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	left: -85px;
+    top: -7px;
+    font-size: .9rem;
+}
+.icon-green{
+	background: #78cb5c;
+	display: none
+}
+.icon-blue{
+	background: #5aaefc;
+}
+.icon-red{
+	background: #ba5038;
+}
+.game-txt{
+	width: 71%;
+    float: left;
+    margin-left: 12px;
+    box-sizing: border-box;
+}
+.game-title{
+	overflow: hidden;
+}
+.game-title h1{
+	float: left;
+	font-size:0.97rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 4px;
+	max-width: 28%;
+	color: #000;
+}
+@media screen and (min-width: 376px){
+	.game-title h1{
+		max-width: 46%
+	}
+}
+@media screen and (min-width: 322px) and (max-width: 375px) {
+	.game-title h1{
+		max-width: 35%
+	}
+}
+@media screen and (max-width: 321px){
+	.game-title span{
+		display: none !important;
+	}
+	.game-title h1{
+		margin-bottom: 11px;
+		max-width: 50%
+	}
+}
+
+.game-title span{
+	border: 1px solid red;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    padding: 1px;
+    color: red;
+    display: none
+}
+.game-cont{
+	clear: both;
+    font-size: 0.9rem;
+    margin: 10px 0px;
+}
+.game-cont span{
+	color: #868282;
+}
+.game-cont em{
+	color: #ec8a24;
+	font-style: normal;
+}
+.game-p p{
+	float:left;
+	width: 88%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-right: 2px;
+	font-size: 0.9rem;
+	color: #000;
+}
+.dow{
+	    background: #6295f4;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    position: absolute;
+    right: 43px;
+    top: 8px;
+    padding: 5px 13px;
+    border-radius: 6px;
+    text-decoration: none;
+}

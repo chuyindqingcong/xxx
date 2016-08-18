@@ -1,0 +1,202 @@
+/*--------------header制作 S --------------*/
+.header{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	top: 5px
+}
+.header div{
+	float:left;
+}
+.header-top{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+}
+.header-left{
+	width: 48%;
+    color: #fff;
+    font-size: 2rem;
+    text-align: left;
+    position: relative;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.header-seach{
+	width: 34%;
+
+}
+.header-left p{
+	font-size: 1.3rem;
+    display: inline-block;
+    margin-top: 2px;
+    position: absolute;
+}
+.header-left a{
+	color: #fff;
+}
+.header-left em{
+	font-size: 2rem;
+	font-style: normal;
+	margin-left: 17px;
+	margin-right: 5px;
+}
+.header-seach input{
+	height: 36px;
+    border-radius: 38px;
+    width: 100%;
+    color: #7B7A7A;
+    font-size: 1rem;
+    text-indent: 2.2rem;
+    font-weight: bold;
+    border: 0px;
+    font-family: '微软雅黑';
+    background:#fff url('../../images/header_search_edit_icon.png') no-repeat 8px center;
+    background-size: 22px;
+}
+.header-download{
+	width: 18%;
+}
+.header-download img{
+	width:29px;
+    margin-top: 17px;
+}
+.header-title{
+	width: 100%;
+	background: #fff;
+}
+.header-title ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 40px;
+	color: #858484;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 0.96rem;
+}
+.title-blue{
+	color: #6295f4 !important;
+	border-bottom: 3px solid #6295f4;
+}
+/*--------------header制作 E --------------*/
+
+/*--------------css3触摸动画制作 S --------------*/
+.wrap{
+	height: 9999px;
+    background: red;
+    background-size: 100% 100%;
+     filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+}
+.content-txt{
+	margin-top: 40px;
+	    position: relative;
+    margin-top: -120%;
+}
+.stage{
+	perspective:800;
+	-webkit-perspective:600px;
+	overflow: hidden;
+	perspective-origin:50% 50%;
+	-webkit-perspective-origin:50% 50%;
+}
+.pageroup{
+	width: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	width: 9999px;
+	margin-left: 63px;
+	transform: translate3d(0,0,0);
+	-webkit-transform:translate3d(0,0,0);
+
+}
+.page{
+	width: 250px;
+    float: left;
+    margin-right: 71px;
+    background: #fff;
+    display: none;
+    transform: translate3d(0,0,0px);
+}
+.page h2,p{
+	text-align: center;
+}
+.page p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.page img{
+	width: 100%;
+	height: 270px;
+}
+.page-login{
+	margin-top: -50px;
+    position: relative;
+    width: 90%;
+}
+.pdsa{
+	float: right;
+    margin: 30px 0px 0px 0px;
+    background: #6295f4;
+    color: #fff;
+    border-radius: 3px;
+    font-size: .9rem;
+    padding: 6px 21px;
+}
+.page-login img{
+	height: 80px;
+    width: 80px;
+    border-radius: 3px;
+}
+.page_p{
+	    width: 90%;
+}
+.page_p h2{
+	font-size: 1.1rem;
+	    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.page_p p{
+	font-size: 1rem;
+	padding-bottom: 5px;
+	color: #a1a1a1;
+	    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.p0{
+	transform: translate3d(0,0,1px);
+	-webkit-transform: translate3d(0,0,1px);
+}
+.p1{
+	transform: translate3d(0,0,-210px);
+	-webkit-transform: translate3d(0,0,-210px);
+}
+.p2{
+	transform: translate3d(0,0,-420px);
+	-webkit-transform: translate3d(0,0,-420px)
+}
+.p3{
+	transform: translate3d(0,0,-630px);
+	-webkit-transform: translate3d(0,0,-630px);
+}
+.p4{
+	transform: translate3d(0,0,-840px);
+	-webkit-transform: translate3d(0,0,-840px);
+}
+.p5{
+	transform: translate3d(0,0,-1050px);
+	-webkit-transform: translate3d(0,0,-1050px);
+}
+
+/*--------------css3触摸动画制作 E --------------*/

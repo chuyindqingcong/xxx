@@ -1,0 +1,202 @@
+.header{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.header div{
+	float:left;
+}
+.header-top{
+	width: 100%;
+	background: #6295f4;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+}
+.header-left{
+	width: 48%;
+	color: #fff;
+	font-size: 2rem;
+	text-align: left;
+    position: relative;
+}
+.header-seach{
+	width: 34%;
+
+}
+.header-left p{
+	font-size: 1.3rem;
+    display: inline-block;
+    margin-top: 2px;
+    position: absolute;
+}
+.header-left a{
+	color: #fff;
+}
+.header-left em{
+	font-size: 2rem;
+	font-style: normal;
+	margin-left: 17px;
+	margin-right: 5px;
+}
+.header-seach input{
+	height: 36px;
+    border-radius: 38px;
+    width: 100%;
+    color: #7B7A7A;
+    font-size: 1rem;
+    text-indent: 2.2rem;
+    font-weight: bold;
+    border: 0px;
+    font-family: '微软雅黑';
+    background:#fff url('../../images/header_search_edit_icon.png') no-repeat 8px center;
+    background-size: 22px;
+}
+.header-download{
+	width: 18%;
+}
+.header-download img{
+	width:29px;
+    margin-top: 17px;
+}
+.header-title{
+	width: 100%;
+	background: #fff;
+}
+.header-title ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 40px;
+	color: #858484;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 0.96rem;
+}
+.title-blue{
+	color: #6295f4 !important;
+	border-bottom: 3px solid #6295f4;
+}
+.mess-content{
+	width: 93%;
+	overflow: hidden;
+    border-bottom:1px solid #e5e5e5
+}
+.message h2{
+	font-size: 1.1rem;
+	color: #5c5c5c;
+	width: 93%;
+	font-weight:normal;
+	background:url("../../images/liu01.png") no-repeat left 9px;
+	background-size: 17px;
+	text-indent: 24px;
+	padding:7px 0px 11px 0px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.portrait{
+float: left;
+    margin-right: 13px;
+}
+.ctxt-top {
+		color: #6295f4;
+		font-size: .97rem;
+}
+.ctxt-top span{
+	float: right;
+	margin-right: 10px;
+	color: #b2b2b2;
+	font-size: .8rem
+}
+.portrait img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top:12px;
+}
+.con-txt{
+	float: left;
+	    width: 82%;
+	        padding: 10px 0px 15px;
+	        text-align: left;
+}
+.con-txt li{
+	clear: both;
+}
+.ctxt-top p{
+	    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 66%;
+    float: left;
+}
+#xxx{
+	float: left;
+	width: 109px;
+	position: relative;
+}
+.zhut{
+	    margin-bottom: 10px;
+    background: #fff;
+}
+.zhut .mess-content{
+	border-bottom: 0px
+}
+.xx img{
+	width: 12px;
+}
+.ctxt-cen{
+	margin: 2px 0px 9px 0px;
+	color: #6d6d6d;
+	word-wrap: break-word;
+}
+.ctxt-bot{
+	color: #878787
+}
+.ctxt-bot em{
+	     font-style: normal;
+    background: url("../../images/dd3.png") no-repeat left 3px;
+    text-indent: 13px;
+    display: inline-block;
+    background-size: 8px;
+    font-size: .8rem;
+}
+.ctxt-bot span{
+	float: right
+}
+.ly{
+	background: url("../../images/pl.png") no-repeat 10px;
+	 background-size: 21px;
+	 text-indent: 25px;  display: inline-block;
+	 padding-left: 10px;
+}
+.dz{
+	background: url("../../images/dianzan.png") no-repeat ;
+	 background-size: 21px;
+	 text-indent: 25px; 
+	  display: inline-block;
+	  border-right: 1px solid #ddd;
+	  padding-right: 10px;
+}
+.loags{
+	text-align: center;
+	background: #fff;
+	color:#ddd;
+	padding:10px 0px;
+}
+.bacs em{
+	background-image: none;
+	text-indent: 0px;
+}
+.bacs span{
+	border-right: none;
+}
+.ctxt-top em{
+	    font-size: .8rem;
+    font-style: normal;
+    color: #b2b2b2;
+        margin-left: 8px;
+}
+.ems{
+	font-size: .9rem !important;
+	    margin-left:0px !important;
+}

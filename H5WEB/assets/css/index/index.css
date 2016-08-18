@@ -1,0 +1,1096 @@
+/*--------------header制作 S --------------*/
+.header{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	left: 0
+}
+#header{
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+}
+.header div{
+	float:left;
+}
+.header-top{
+	width: 100%;
+	background: #6295f4;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.header-left{
+	width: 18%;
+
+}
+.header-seach{
+	width: 64%;
+
+}
+.header-seach input{
+	height: 30px;
+	border-radius: 38px;
+	width: 80%;
+	color: #7B7A7A;
+	font-size: 1rem;
+	padding-left: 2.2rem;
+	border: 0px;
+	font-family: '微软雅黑';
+	background:#fff url('../../images/header_search_edit_icon.png') no-repeat 8px center;
+	background-size: 22px;
+}
+.header-download{
+	width: 18%;
+}
+.header-download img{
+	width: 31px;
+	margin-top: 11px;
+}
+.header-title{
+	width: 100%;
+	background: #fff;
+	position: relative;
+	display: none;
+}
+.header-title ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 40px;
+	color: #858484;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 0.96rem;
+	cursor: pointer;
+}
+.header-title ul li img{
+	width: 45px;
+	height: 35px;
+}
+.hua{
+	border-bottom: 3px solid #6295f4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: all .4s ease-out
+}
+.title-blue {
+	color: #6295f4 !important;
+}
+/*--------------header制作 E --------------*/
+
+
+/*--------------页面搜索框 S --------------*/
+.tow-wrap{
+	display: none;
+	overflow: hidden;
+	font-family: '微软雅黑'
+}
+.seach{
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.seach .header-seach input{
+	background: #fff;
+    padding-left: 1.2rem;
+    width: 83%;
+}
+.rgseach{
+	background: #fff;
+	width: 100%;
+	margin-top: 10px;
+	clear: both;
+	
+}
+.rgseach-title{
+	background: url('../../images/search_index_hot_title_ico.png') no-repeat left center;
+	background-size: 1.3rem;
+	text-indent: 2rem;
+	color: #000;
+	height: 30px;
+	line-height: 30px;
+	font-size: 1rem;
+	width: 94%;
+	padding: 5px 0px;
+	text-align: left;
+	float: none !important;
+}
+.rgseach-title img{
+	float: right;
+	margin-top: 5px;
+	width: 1.3rem;
+	margin-right: 6px;
+}
+.rgseach-game{
+	width: 94%;
+}
+.rgseach-game li{
+	width: 31.33%;
+	border: 1px solid #f5e5da;
+	padding: 5px 10px;
+	font-size: 1rem;
+	box-sizing: border-box;
+	height: 36px;
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+.rgseach-game li img{
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+.rgseach-game span{
+	margin-top: 4px;
+	display: inline-block;
+	width: 61%;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 4px;
+	font-size: .7rem;
+	color: #b6b6b5;
+}
+.rgseach-clear{
+	background: #fff;
+	width: 100%;
+	margin-top: 10px;
+}
+.rgseach-clear p{
+	color: #6ab6fc;
+	text-align: center;
+	font-size: 1rem;
+	padding: 10px 0px;
+	font-weight: normal;
+}
+.rgseach-lishi{
+	color: #000;
+}
+.rgseach-lishi li{
+	list-style-type: none;
+	border-bottom: 1px solid #dedede;
+	width: 94%;
+	text-align: left;
+	padding: 5px;
+	text-indent: 2rem;
+	color: #868683;
+	background: url('../../images/res_createtime_ico.png') no-repeat left center;
+	background-size: 20px;
+	text-indent: 1.5rem;
+}
+.rgseach-lishi img{
+	width: 13px;
+	text-align: right;
+	float: right;
+	margin-top: 7px;
+}
+.rgseach-lishi span{
+	font-size: 1rem;
+	display: inline-block;
+	width: 80%;
+	font-weight:normal;
+}
+.warpbg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	visibility: hidden;
+}
+.warpbg img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-dd{
+	height: 100% !important;
+}
+.seach-wrap{
+	display: none
+}
+#img_h{
+	transition: all .3s ease;
+}
+/*--------------页面搜索框 E --------------*/
+
+/*--------------页面搜索框内容 S --------------*/
+#f_wrap{
+	font-size: 2rem;
+	    font-weight: normal;
+}
+.tow{
+	font-family: '微软雅黑';
+	margin-top: 0px !important;
+	border-bottom: 0px !important;
+	overflow: hidden;
+}
+.tow .game-title h1{
+	max-width: 75%;
+	font-size: 1.1rem;
+}
+.swiper-containera {
+	width: 100%;
+	height: 144px;
+} 
+.swiper-containera img{
+	width: 100%;
+	height: 100%;
+}
+.cont-img {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 231px;
+}
+.cont-img ul{
+	width: 1300px;
+	padding: 10px;
+	position: absolute;
+	left: 0px;
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+}
+.cont-img img{
+	float: left;
+	width: 146px;
+	height: 210px;
+	margin-right: 10px;
+}
+.ff-top{
+	background: #fff;
+	overflow: hidden;
+}
+.ff-bottom{
+	overflow: hidden;
+	background: #fff;
+	margin-top: 10px;
+}
+.ff-bottom h3{
+	font-size: .9rem;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	color: #a1a1a1;
+	padding:13px;
+}
+/*--------------页面搜索框内容 E --------------*/
+
+/*--------------改变框页面 S --------------*/
+.change{
+	display: none
+}
+.ulis{
+	width: 100%;
+}
+.ulis li{
+	border-bottom: 1px solid  #DAD1D1;
+	color: #ccc;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 12px;
+	background:#fff;
+}
+/*--------------页面搜索框内容 E --------------*/
+
+/*--------------content-制作 S --------------*/
+.content{
+	width: 100%;
+}
+/*--------------样式1-轮播 制作 S --------------*/
+.swiper-container {
+	width: 100%;
+	height: 144px;
+} 
+.swiper-container img{
+	width: 100%;
+	height: 100%;
+} 
+.img{
+	width: 100%
+}
+.swiper-pagination-bullet{
+	background: #fff !important;
+	opacity: 1 !important;
+	border-radius: 0% !important;
+	width: .8rem !important;
+	height: .2rem !important;
+}
+.swiper-pagination-bullet-active{
+	background: #007aff !important;
+}
+/*--------------样式1制作 E --------------*/
+/*--------------样式2-推荐 制作 S --------------*/
+.classify{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.classify ul li{
+	float: left;
+	text-align: center;
+	color: #6b6b6b;
+	background: #fff;
+	padding: 13px 0px;
+}
+.classify img{
+	width: 45px;
+}
+.content-txt{
+	width: 100%;
+}
+/*--------------样式2制作 E --------------*/
+
+/*--------------样式3-长方形 制作 S --------------*/
+.content-game{
+	width: 100%;
+	padding: 10px;
+	overflow: hidden;
+	height: 80px;
+	position: relative;
+	border-bottom: 1px solid #DAD1D1;
+	background: #fff;
+	margin-top: 10px ;
+}
+
+.game-img{
+	text-align: center;
+	float: left;
+	position: relative;
+
+}
+.game-img img{
+	height: 80px;
+	width: 80px;
+}
+.span-icon{
+	position: absolute;
+	transform: rotate(-34deg);
+	-webkit-transform:rotate(-45deg);
+	width: 184px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	left: -85px;
+	top: -7px;
+	font-size: .9rem;
+	display: none;
+}
+.icon-green{
+	background: #78cb5c;
+}
+.icon-blue{
+	background: #5aaefc;
+}
+.icon-red{
+	background: #ba5038;
+}
+.game-txt{
+	width: 71%;
+	float: left;
+	margin-left: 12px;
+	box-sizing: border-box;
+}
+.game-title h1{
+	float: left;
+	font-size:0.97rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 4px;
+	max-width: 28%
+}
+@media screen and (min-width: 376px){
+	.game-title h1{
+		max-width: 46%
+	}
+	.install-right{
+		margin-right: 13%
+	}
+}
+@media screen and (min-width: 322px) and (max-width: 375px) {
+	.game-title h1{
+		max-width: 35%
+	}
+	.install-right{
+		margin-right:9%;
+	}
+}
+@media screen and (max-width: 321px){
+	.game-title span{
+		display: none !important;
+	}
+	.game-cont{
+		margin: 5px 0px !important;
+	}
+	.game-title h1{
+		margin-bottom: 11px;
+		max-width: 50%
+	}
+	.install-right{
+		margin-right:0%;
+	}
+}
+
+.game-title span{
+	border: 1px solid red;
+	border-radius: 6px;
+	font-size: 0.8rem;
+	padding: 1px;
+	color: red;
+	display: none;
+}
+.game-cont{
+	clear: both;
+	font-size: 0.9rem;
+	margin: 10px 0px;
+}
+.game-cont span{
+	color: #868282;
+}
+.game-cont em{
+	color: #ec8a24;
+	font-style: normal;
+}
+.game-p p{
+	float:left;
+	width: 88%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-right: 2px;
+	color: #868282;
+	font-size:.95rem;
+    color: #868282;
+}
+.dow{
+	background: #6295f4;
+	color: #fff;
+	text-align: center;
+	font-size: 1rem;
+	position: absolute;
+	right: 43px;
+	top: 8px;
+	padding: 5px 13px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+/*--------------样式3制作 E --------------*/
+
+/*--------------样式4-单图片 制作 S --------------*/
+.content-game-img{
+	width: 100%;
+	max-height: 160px;
+	margin-top: 10px;
+	position: relative;
+	    overflow: hidden;
+}
+.content-game-img img{
+	width: 100%;
+	height: 100%;
+	max-height: 160px;
+}
+.bg-game-img{
+	    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    z-index: 999;
+    background: rgba(0,0,0,.5);
+}
+.bg-game-img h5{
+	color: #fff;
+	    margin-left: 80px;
+    font-size: .96rem;
+}
+.bg-game-img p{
+	    color: #fff;
+    margin-left: 80px;
+    font-size: .9rem;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.bg-game-img h3{
+	    position: absolute;
+    text-align: center;
+    color: #fff;
+    background: red;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 1.6rem;
+    border-radius: 8px;
+    top: -18px;
+    left: 14px;
+}
+.a-hover-login{
+	    position: absolute;
+    bottom: 8px;
+    right: 27px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 0.9rem;
+    padding: 0px 9px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+/*--------------样式4制作 E --------------*/
+
+/*--------------样式5-单图片+标题+简介+浏览次数  制作 S--------------*/
+.special-txt{
+	width: 100%;
+	background: #fff;
+	margin-top: 15px;
+	overflow: hidden;
+	padding: 10px 0px;
+}
+.special-txt ul{
+	width: 94%;
+	margin: 0 auto;
+}
+.special-txt li{
+	width: 100%;
+}
+.special-txt h2{
+	font-weight:normal;
+	padding: 0px 0px 10px 0px;
+	font-size: 1.3rem;
+	border-bottom: 1px solid #ccc;
+}
+.spe-img{
+	width: 100%;
+	padding-top: 10px;
+}
+.spe-img img{
+	width: 100%;
+	max-height: 220px;
+}
+.special-txt p{
+	font-size: .96rem;
+}
+.special-txt span{
+	color: #ccc;
+	font-size: .8rem;
+	padding:7px 0px;
+}
+.date{
+	float: left;
+	background: url("../../images/res_createtime_ico.png") no-repeat 0px center;
+	background-size: 1rem;
+	text-indent: 1.3rem;
+}
+.browse{
+	float:right;
+	background: url("../../images/res_browse_ico.png") no-repeat 0px center;
+	background-size: 1.4rem;
+	text-indent: 1.8rem
+}
+.onw-ys5{
+	margin-top: 10px;
+}
+/*--------------样式5制作 E --------------*/
+
+/*--------------样式6-左边文字右边图片 50% 制作 S --------------*/
+.jiheZ{
+	width: 94%;
+	margin-top: 10px;
+	clear: both;
+	overflow: hidden;
+}
+/*--------------样式6制作 E --------------*/
+
+/*--------------样式7-背景图片下方下载 制作 S --------------*/
+.bg-login{
+	height: 95px;
+	background-size: 100% 100%;
+	width: 100%;
+	float: left;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+	border-right: 1px solid #fff;
+	box-sizing: border-box;
+}
+.login-bottom{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 5px 0px;
+	background:rgba(0,0,0,.5);
+}
+.login-bottom li {
+	float: left;
+	color: #fff;
+	font-size: .9rem
+}
+.login-bottom-run{
+	float: right !important;
+	margin-right: 5px;
+	border-radius: 6px;
+	background: #4794F2;
+	color: #fff;
+	padding: 1px 5px;
+	font-size: .9rem !important;
+}
+.login-bottom img{
+	width: 20px;
+	height: 20px;
+	margin:0px 6px;
+}
+.bg-login-li{
+	    width: 59%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*--------------样式7制作 E --------------*/
+
+/*--------------样式8-背景图片下方下载变大版本 制作 S --------------*/
+.bd{
+	height:100%;
+	    display: block;
+}
+.bg-login-d{
+	height: 190px;
+    background-size: 100% 100%;
+    width: 100%;
+    float: left;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+}
+/*--------------样式8制作 E --------------*/
+
+/*--------------样式9-左边图片右边文字白色背景 制作 S --------------*/
+.bottom{
+	width: 50%;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+	margin
+}
+.bottom-li{
+	float: left;
+	cursor: pointer;
+	border-bottom: 1px solid #dedede;
+	width: 100%;
+	box-sizing:border-box;
+}
+.bottom img{
+	padding: 10px 10px 10px 0px;
+	width: 36px;
+	height: 36px;
+	max-width: 100px;
+}
+.bottom p{
+	display: inline;
+	position: absolute;
+	margin-top: 18px;
+	color: #626262;
+}
+.ulss{
+	width: 90%
+}
+
+/*--------------样式9制作 E --------------*/
+
+/*--------------样式10中间图片下方文字 制作 S --------------*/
+.game-short{
+	width: 25%;
+	color: #fff;
+	text-align: center;
+	padding: 11px 0px;
+	float: left;
+	margin-top: 1px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	box-sizing:border-box;
+	min-height: 61px;
+	max-height: 94px;
+	overflow: hidden;
+}
+.game-short img{
+	width: 50%;
+	max-width: 60px;
+	border-radius: 6px;
+
+}
+.game-short p{
+	font-size: .6rem;
+	color: 
+}
+.game-color-1{
+	background: #f25b9a;
+}
+.game-color-2{
+	background: #f27f83;
+}
+.game-color-3{
+	background: #f2ee76;
+}
+.game-color-4{
+	background: #f2d7cd;
+}
+.game-color-5{
+	background: #f253a2;
+}
+.game-color-6{
+	background: #f27584;
+}
+/*--------------样式10 制作 E --------------*/
+
+/*--------------样式11 制作 E --------------*/
+.game-long{
+	width: 50%;
+	text-align: left !important;
+	text-indent: 8px;
+	overflow: hidden;
+	float: left;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	box-sizing: border-box;
+	margin-top: 1px;
+	padding: 6px 0px;
+	max-height: 94px;
+
+}
+.game-long-wa{
+	float: left;
+	width: 60%;
+	margin-top: 7px;
+}
+
+.game-long-aa{
+	width: 40%;
+	float: left;
+}
+.game-long img{
+	width: 71%;
+	margin-top: 10px;
+	border-radius: 6px;
+	max-width: 66px;
+}
+.game-long h1{
+	font-size: .9rem;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.game-long p{
+	font-size: .6rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #fff
+}
+/*--------------样式11 制作 E --------------*/
+
+/*--------------样式12 左边文字右边图片加下载制作 S --------------*/
+.bg-install{
+	width: 100%;
+	height: 150px;
+	font-size: .9rem;
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.bg-install span{
+	position: absolute;
+	transform: rotate(-34deg);
+	-webkit-transform: rotate(-45deg);
+	width: 212px;
+	height: 32px;
+	line-height: 47px;
+	color: #fff;
+	background: red;
+	left: -98px;
+	top: -8px;
+	font-size: .6rem;
+	text-align: center;
+	display: none;
+}
+.install-wrap{
+	background: rgba(0,0,0,0.4);
+	height: 100%
+}
+.install-left{
+	margin-top: 45px;
+	margin-left: 15%;
+	float: left;
+	text-align: center;
+	color: #fff;
+
+}
+.install-left li{
+	margin-bottom: 6px
+}
+.install-right{
+    margin-top: 20px;
+    float: right;
+    text-align: center;
+    color: #fff;
+}
+.install-right img{
+	width: 60px;
+	height: 60px;
+	border-radius: 6px;
+}
+.install-title{
+	padding: 3px 0px;
+}
+.installaa{
+	color: #fff;
+	background: #00AB49;
+	width: 60px;
+	display: block;
+	padding: 3px 0px;
+	border-radius: 6px;
+}
+/*--------------样式12 制作 E --------------*/
+
+/*--------------样式13 背景图片下面下载合集制作 S --------------*/
+.login-Collection{
+	clear: both;
+	height: 180px;
+	background-size: 100% 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	border-right: 1px solid #fff;
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.login-collection-title {
+	color: #fff;
+	font-size: 1rem;
+	overflow: hidden;
+	padding: 0px 10px 104px;
+}
+.login-collection-title-right{
+	float: right;
+	margin-left:10px;
+}
+.login-collection-title-left{
+	float: left;
+	margin-right: 10px
+}
+.login-Collection-bottom{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(0,0,0,.5);
+}
+.login-Collection-bottom li {
+	float: left;
+	color: #fff;
+	font-size: 1.3rem
+}
+.login-Collection-li{
+	    margin-top: 8px;
+}
+.login-Collection-li h1{
+	font-size: .9rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 150px
+}
+.login-Collection-li p{
+	font-size: .7rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 150px
+}
+.login-Collection-bottom-run{
+	float: right !important;
+	margin-right: 5px;
+	border-radius: 6px;
+	background: #4794F2;
+	color: #fff;
+	padding: 4px 9px;
+	font-size: 1rem !important;
+	margin-top: 7px;
+}
+.login-Collection-bottom img{
+	width: 40px;
+	height: 40px;
+    margin: 7px 6px 0px 6px;
+}
+
+/*--------------样式13 制作 E --------------*/
+
+/*--------------样式14 背景图片中间分块下载制作 S --------------*/
+.nei-login{
+	width: 100%;
+	clear: both;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 10px;
+}
+.nei-top{
+	font-size: 1rem;
+	padding: 0px 10px;
+	overflow: hidden;
+}
+.nei-title{
+	float: left;
+	color: #fff;
+}
+.nei-kan{
+	float: right;
+	color: #fff;
+}
+.nei-wrap{
+	position: absolute;
+	overflow: hidden;
+	top: 30px;
+	left: 0;
+	padding-left: 170px;
+	transform: translate3d(0,0,0);
+	-webkit-transform:translate3d(0,0,0);
+}
+.nei-wrap-bg{
+	text-align: center;
+	background: #fff;
+	border-radius: 6px;
+	padding: 9px 0px;
+	width: 88px;
+	float: left;
+	margin-right: 10px;
+}
+.nei-wrap-bg img{
+	width: 70px;
+	height: 60px;
+	border-radius: 8px;
+}
+.nei-wrap-bg p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: .9rem;
+	color: #000 !important;
+}
+.nei-wrap-bg a{
+	color: #FFD487;
+	font-size: .9rem;
+}
+/*--------------样式14 制作 E --------------*/
+
+/*--------------样式15 图片上方下方集合下载 S --------------*/
+.game-list{
+	width: 100%;
+	clear: both;
+	background: #fff;
+	overflow: hidden;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.game-list-title{
+	padding: 9px 10px 5px 10px;
+}
+.game-list-top h2{
+	font-size: 1rem;
+	display:inline-block;
+}
+.game-list-top a{
+	float: right;
+	color: #9AE2C5;
+	font-size: 1rem;
+}
+.game-list-top img{
+	width: 100%;
+}
+.game-list-bottom {
+	padding: 10px 0px;
+}
+.game-list-bottom li{
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+.game-list-bottom img{
+	width: 70px;
+	height: 60px;
+	border-radius:6px;
+}
+.game-list-bottom h1{
+	font-size: .9rem;
+	padding: 5px 0px;
+	color: #000;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.new-aa {
+	    background: #6295f4;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px 13px;
+    border-radius: 6px;
+    text-decoration: none;
+
+}
+/*--------------样式15 制作 E --------------*/
+
+/*--------------样式16 制作 S --------------*/
+.advertisement{
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	padding: 7px 0px;
+}
+.advertisement div{
+	width: 90%;
+	margin: 0px auto;
+}
+.advertisement img{
+	float: left;
+	width: 48%;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+/*--------------样式16 制作 E --------------*/
+
+/*--------------样式18 制作 E --------------*/
+.wsh{
+	margin-top: 10px;
+	width: 100%;
+	    overflow: hidden;
+}
+.ys18_left{
+	width: 50%;
+	float: left;
+}
+.ys18_right{
+	width: 50%;
+	float: left;
+}
+/*--------------样式18 制作 E --------------*/
+
+/*--------------content制作 E --------------*/
+
+/*--------------页面初始化制作 S --------------*/
+#modules{
+	display: none;
+}
+.game-title{
+	color: #000;
+	overflow: hidden;
+}
+.game-p{
+	color: #000
+}
+/*--------------页面初始化制作 E --------------*/
+

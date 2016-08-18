@@ -1,0 +1,163 @@
+/*--------------header制作 S --------------*/
+.header{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.header div{
+	float:left;
+}
+.header-top{
+	width: 100%;
+	background: #6295f4;
+	height: 60px;
+	line-height: 60px;
+	overflow: hidden;
+}
+.header-left{
+	width: 48%;
+	color: #fff;
+	font-size: 2rem;
+	text-align: left;
+    position: relative;
+}
+.header-seach{
+	width: 34%;
+
+}
+.header-left p{
+	font-size: 1.3rem;
+    display: inline-block;
+    margin-top: 2px;
+    position: absolute;
+}
+.header-left a{
+	color: #fff;
+}
+.header-left em{
+	font-size: 2rem;
+	font-style: normal;
+	margin-left: 17px;
+	margin-right: 5px;
+}
+.header-seach input{
+	height: 36px;
+    border-radius: 38px;
+    width: 100%;
+    color: #7B7A7A;
+    font-size: 1rem;
+    text-indent: 2.2rem;
+    font-weight: bold;
+    border: 0px;
+    font-family: '微软雅黑';
+    background:#fff url('../../images/header_search_edit_icon.png') no-repeat 8px center;
+    background-size: 22px;
+}
+.header-download{
+	width: 18%;
+}
+.header-download img{
+	width:29px;
+    margin-top: 17px;
+}
+.header-title{
+	width: 100%;
+	background: #fff;
+}
+.header-title ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 40px;
+	color: #858484;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 0.96rem;
+}
+.title-blue{
+	color: #6295f4 !important;
+	border-bottom: 3px solid #6295f4;
+}
+/*--------------header制作 E --------------*/
+.top_img{
+	width: 100% ;
+	
+}
+.top_img img{
+	width: 100%;
+	display: none
+}
+.content-txt{
+	width: 94%;
+	margin-top: 10px;
+}
+.content-txt>div{
+	width: 49%;
+}
+.wrap-left{
+	float: left;
+}
+.wrap-right{
+	float: right;
+}
+.size-d{
+	width:100%;
+	background:#fff;
+	overflow:hidden;
+	display: none;
+	margin-bottom: 10px;
+}
+.img-top img{
+	width: 100%;
+	border-radius: 4px 4px 0px 0px;
+}
+.img-cen{
+	width: 94%;
+	margin: 2px auto 5px;
+}
+.img-cen img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 8px;
+}
+.img-cen h2{
+	font-size: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #000
+}
+.img-cen p{
+	font-size: .9rem;
+	color: #a1a1a1;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.img-bot{
+	width: 100%;
+	background: #6295f4;
+	border-radius: 4px;
+	width: 94%;
+    margin-bottom: 5px;
+}
+.img-bot a{
+	display: block;
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	font-size: .9rem;
+	text-align: center;
+}
+.size-s{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.size-s .img-top img{
+	height: 73px;
+}
